@@ -1,0 +1,129 @@
+/*PAGINA DE ESTILO DE MDIMG.PHP*/
+
+body {
+    background: linear-gradient(135deg, #82DFD6, #06A7BF);
+    background-image: url("../img/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    color: #000;
+    margin: 0;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-container form {
+    width: calc(48% - 20px);
+    text-align: center;
+}
+
+.form-container form input[type="text"],
+.form-container form input[type="file"],
+.form-container form input[type="submit"],
+.form-container form .redirect-button {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container form input[type="submit"],
+.form-container form .redirect-button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container form input[type="submit"]:hover,
+.form-container form .redirect-button:hover {
+    background-color: #2980b9;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.search-results {
+    margin-top: 20px;
+}
+
+.search-results table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.search-results th,
+.search-results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.search-results th {
+    background-color: #f2f2f2;
+}
+
+.search-results img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.product-form-column {
+    text-align: center;
+}
+
+.product-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-form form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-form a {
+    margin: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}

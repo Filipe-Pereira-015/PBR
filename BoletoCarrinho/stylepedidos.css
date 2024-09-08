@@ -1,0 +1,155 @@
+  /* ESTILO PÁGINA PEDIDOS */
+
+  body {
+           background: linear-gradient(135deg, #82DFD6, #06A7BF);
+           background-image: url("../img/fundo.png");
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           font-family: 'Roboto', sans-serif;
+           text-align: center;
+           margin: 0;
+       }
+
+        /* Estilos do container */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centraliza o conteúdo */
+        }
+
+        /* Outros estilos */
+        h1 {
+            text-align: center;
+        }
+
+        /* Estilos da tabela */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+        }
+
+        /* Estilos do carrinho */
+        .cart {
+            float: right;
+            margin-top: 20px;
+        }
+
+        .cart-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .cart-button:hover {
+            background-color: #45a049;
+        }
+
+        .finalize-button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none; /* Remover sublinhado do link */
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .finalize-button:hover {
+            background-color: #007A8B;
+        }
+
+        /* Estilos do carrinho */
+        .cart-container {
+            margin-top: 40px;
+            text-align: left;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            background: #f9f9f9;
+        }
+
+        .cart-container h2 {
+            text-align: center;
+        }
+
+        .cart-items {
+            margin-top: 20px;
+        }
+
+        .cart-items table {
+            width: 100%;
+        }
+
+        .cart-items table th, .cart-items table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .cart-items table th {
+            background-color: #f2f2f2;
+        }
+
+        /* Estilos do campo de pesquisa */
+        .search-form {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .search-form input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        .search-form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .search-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilos do botão "Remover" */
+        .remove-button {
+            background-color: #f44336;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none; /* Remover sublinhado do link */
+        }
+
+        .remove-button:hover {
+            background-color: #d32f2f;
+        }
